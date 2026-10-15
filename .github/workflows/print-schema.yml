@@ -10,4 +10,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: dtolnay/rust-toolchain@stable
-      - run: cargo test --no-default-features --lib ticket::document::
+      - run: 'cargo test --no-default-features --lib ticket::document::'
